@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>My Website</title>
+		<!-- internal css -->
+		<style>
+		    /* internal css   */
+			h1
+			{
+				background-color:blue;
+				color:white;
+				text-align:center;
+				padding:20px;
+				margin:10px;
+				border-radius:10px;
+			}
+		</style>
+
+	</head>
+	<body bgcolor='#FFBB00'>
+	<img align='right' width='100px' height='100px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"></img>
+		<!--<h1 style="background-color:blue;color:white" align='center'>My Website</h1> -->
+		<h1>My Website</h1>
+		<hr/> <!-- horizontal rule --><br/><br/>
+		<div align='center'>
+		<!-- inline css -->
+		<fieldset style="width:400px">
+		<legend>Student Registration</legend>
+		<table  align='center' width='400px'>
+			<form>
+			  <tr>
+				<td><label>Roll:</label></td>
+				<td><input type='number' placeholder='Roll'></input></td>
+			  </tr>
+			  <tr>
+				<td><label>Student Name:</label></td>
+				<td><input type='text'></input></td>
+			  </tr>
+			   <tr>
+				<td><label>Password:</label></td>
+				<td><input type='password'></input></td>
+			  </tr>
+			   <tr>
+				<td><label>Phone:</label></td>
+				<td><input type='text' value="+91"></input></td>
+			  </tr>
+			  <tr>
+				<td><label>Course:</label></td>
+				<td>
+					<select> 
+					   	<option>Select course</option>
+						<optgroup label='Programming'>
+						<option>C</option>
+						<option>C++</option>
+						<option>Java</option>
+						</optgroup>
+						<optgroup label='Web Designing'>
+						<option>HTML</option>
+						<option>CSS</option>
+						<option>JavaScript</option>
+						</optgroup>
+					</select>
+				</td>
+			  </tr>
+			   <tr>
+				<td><label>Gender:</label></td>
+				<td>
+				<input type='radio' name='gender'>Male</input>
+				<input type='radio' name='gender'>Female</input>
+				<input type='radio' name='gender'>Don't want to say</input>
+				</td>
+			  </tr>
+			   <tr>
+				<td><label>DOB:</label></td>
+				<td>
+				<input type='date' ></input>
+				</td>
+			  </tr>
+			   <tr>
+				<td><label>Favourite Color:</label></td>
+				<td>
+				<input type='color' ></input>
+				</td>
+			  </tr>
+			   <tr>
+				<td><input type='submit' value='register'></input></td>
+				<td>
+				<input type='reset' />
+				</td>
+			  </tr>
+			</form>
+		</table>
+		</fieldset>
+		</div>
+	</body>
+
+</html>

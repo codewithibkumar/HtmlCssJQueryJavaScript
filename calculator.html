@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+   
+    <style>
+        div
+        {
+            display:inline-block;
+            background-color: yellow;
+            padding:30px;
+            width: 300px;
+        }
+        h2
+        {
+            background-color: blue;
+            color:white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3 id='printdate' align='right'></h3>
+    <div>
+    <h2>Calculator</h2>
+    
+    <input type='number' id='tnum1'  style='max-width: 250px;'
+     placeholder="enter first number" /><br/>
+    <input type='number' id='tnum2'  style='max-width: 250px;'
+     placeholder="enter second number" /><br/>
+    
+    <button onclick="sum()">Sum</button>
+    <button onclick="sub()">Sub</button>
+    <button onclick="mul()">Multiply</button>
+    <button onclick="div()">Divide</button>
+    <h3 id='calcoutput'></h3>
+    
+    </div>
+
+    <div>
+        <h2>is Even Odd?</h2>
+        
+        <input type='number' id='tnum3'  style='max-width: 250px;'
+         placeholder="enter a number" /><br/>
+        
+        
+        <button onclick="evenOdd()">Check Even Odd</button>
+        
+        <h3 id='evenoddoutput'></h3>
+        
+    </div>
+
+        <div>
+            <h2>Find Max</h2>
+            
+            <input type='number' id='tnum4'  style='max-width: 250px;'
+             placeholder="enter first number" /><br/>
+            <input type='number' id='tnum5'  style='max-width: 250px;'
+             placeholder="enter second number" /><br/>
+             <input type='number' id='tnum6'  style='max-width: 250px;'
+             placeholder="enter third number" /><br/>
+            <button onclick="findMax()">Find Max</button>
+        
+            <h3 id='maxoutput'></h3>
+            
+            </div>
+
+            <div>
+                <h2>Print table</h2>
+                
+                <input type='number' id='tnum7'  style='max-width: 250px;'
+                 placeholder="enter a number" /><br/>
+                
+                
+                <button onclick="printTable()">Print Table</button>
+                
+                <h3 id='tableoutput'></h3>
+                
+                </div>
+
+                <div>
+                    <h2>Print Factorial</h2>
+                    
+                    <input type='number' id='tnum8'  style='max-width: 250px;'
+                     placeholder="enter a number" /><br/>
+                    
+                    
+                    <button onclick="printFactorial()">Print Factorial</button>
+                    
+                    <h3 id='factoutput'></h3>
+                    
+                    </div>
+                    <div>
+                        <h2>Print Factorial using For loop</h2>
+                        
+                        <input type='number' id='tnum9'  style='max-width: 250px;'
+                         placeholder="enter a number" /><br/>
+                        
+                        
+                        <button onclick="printFactorialUsingFor()">Print Factorial</button>
+                        
+                        <h3 id='fact1output'></h3>
+                        
+                        </div>
+                        <div>
+                            <h2>Check Prime</h2>
+                            
+                            <input type='number' id='tnum10'  style='max-width: 250px;'
+                             placeholder="enter a number" /><br/>
+                            
+                            
+                            <button onclick="checkPrime()">CheckPrime</button>
+                            
+                            <h3 id='primeoutput'></h3>
+                            
+                        </div>
+</body>
+</html>

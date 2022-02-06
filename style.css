@@ -1,0 +1,84 @@
+h1   /* type selector */
+{
+    background-color: blue;   
+    color:white;
+
+}  
+p
+{
+    background-color: yellow;
+    border: solid 2px;
+} 
+#pdesign /* id selector */
+{
+    background-color: red;
+    color:white;
+}
+/*
+*     universal selector
+{
+    margin:0px;
+    
+}
+*/
+.border /* class selector */
+{
+    border: dashed 2px;
+}
+.round
+{
+    border-radius: 10px;
+}
+div p /* descendent selector */
+{
+    color:blue;
+    font-size: large;
+}
+div > p /* child selector */
+{
+   padding:30px;
+}
+div+h3        /* adjacent sibling selector */
+{
+    margin:40px;
+}
+div ~ h3 /* general sibling selector */
+{
+    background: blue;
+}
+img[src='html5.png']
+{
+    border: dashed 3px;
+}
+ul
+{
+    list-style-type: none;
+    background: cyan;
+    padding:20px;
+    
+}
+ul li
+{
+    display:inline;
+    margin:30px;
+    border:solid 2px;
+    padding:20px;
+    background-color: yellow;
+    
+}
+/* a[href='index.html']
+{
+   
+    background-color: red;
+}
+*/
+li:hover
+{
+    background-color:red;
+}
+li:hover > a
+{
+    
+    color:white;
+}
+
